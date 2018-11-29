@@ -3,9 +3,10 @@
 }
 
 #conteiner {
-    max-width: 1240px;
+    max-width: 1244px;
     margin: auto;
     font-family: Open Sans, arial;
+    padding: 2px;
 
 }
 
@@ -48,11 +49,12 @@ a.menu:hover {
 
 .menu.active {
     font-size: 25px;
-    color: #f8fd69;
+    color: #eef091;
     box-sizing: border-box;
-    border: solid 2px #f9f049;
+    border: solid 2px #eef091;
     border-radius: 5px;
     margin-top: 1px;
+    transition-duration: 0.4s;
 }
 
 
@@ -63,21 +65,63 @@ header img {
 }
 
 article{
+    max-width: 1240px;
     margin-top: 30px;
     margin-bottom: 30px;
 
 }
 
-.face{
-    width: 400px;
-    height: 400px;
+article h1{
+
+    text-align: center;
+    font-size: 30px;
+    margin: 0 20% 20px 20%;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f7dfec;
+
 }
 
-footer{
-    position: relative;
+img.face{
+    width: 38%;
+    height: 100%;
+    float: left;
+    padding:  10px;
+    display: block;
+    border-radius:40% 15%;
+    border: 3px solid #f7dfec;
+    margin: 2px;
+
+}
+
+article p {
+    text-align: justify;
+    float: left;
+    width: 60%;
+    padding:10px;
+    line-height: 25px;
+    font-size: 18px;
+
+}
+
+
+#footer {
+    display: inline-block;
     width: 100%;
-    height: 40px;
+    height: auto;
     background-color: black;
 }
 
+.footerTEXT {
+
+    color: #ffffff;
+    text-align: justify;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.iconS {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
 

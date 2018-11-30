@@ -9,16 +9,18 @@
     padding: 0px 2px;
 
 }
-
 nav {
     position: sticky;
     top: 0.1px;
     background-color: rgba(0, 0, 0, 0.70);
     width: 100% ;
-    height: 50px;
-
+    height: 43px;
+    border-radius: 5px;
+    z-index: 100;
 
 }
+
+
 /*
 nav img {
     display:block;
@@ -26,7 +28,6 @@ nav img {
     height: 100%;
 }
 */
-
 a.menu {
     display: inline-block;
     float: left;
@@ -35,11 +36,11 @@ a.menu {
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 a.menu:hover {
-    font-size: 25px;
+    font-size: 18px;
     color: #f7dfec;
     box-sizing: border-box;
     border: solid 2px #f7dfec;
@@ -51,7 +52,7 @@ a.menu:hover {
 }
 
 .menu.active {
-    font-size: 25px;
+    font-size: 18px;
     color: #eef091;
     box-sizing: border-box;
     border: solid 2px #eef091;
@@ -62,7 +63,6 @@ a.menu:hover {
 
 
 header img {
-    padding-top: 50px;
     width: 100%;
     display: block;
     height: 380px;
@@ -72,23 +72,62 @@ article{
     max-width: 1240px;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 5px;
 
 }
 
-article h1{
+.therapy {
+    border-radius: 25px;
+    display: inline-block;
+    position: relative;
+}
+
+article h1 {
 
     text-align: center;
-    font-size: 30px;
-    margin: 0 20% 20px 20%;
+    font-size: 35px;
+    margin: 0 20% 5px 40%;
     padding-bottom: 10px;
-    border-bottom: 3px solid #f7dfec;
 
 }
+.therapy h1{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: auto;
+
+
+}
+.boxter{
+    display: inline-block;
+    width: 65%;
+    border: 3px solid #f7dfec;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.therapy h3 {
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+    padding-left: 10px;
+
+}
+
+.tex {
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
+
+
 
 
 img.face{
-    width: 38%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
     float: left;
     padding:  10px;
     display: block;
@@ -101,11 +140,72 @@ img.face{
 article p {
     text-align: justify;
     float: left;
-    width: 60%;
+    width: 74%;
     padding:10px;
     line-height: 25px;
     font-size: 18px;
+    border-top: 3px solid #f7dfec;
+    border-bottom: 3px solid #f7dfec;
 }
+
+
+.ter {
+    position: absolute;
+    width: auto;
+    height: 39%;
+    padding:  10px;
+    display:inline-block;
+    border-radius:15% 40% 0 40%;
+    border: 3px solid #f7dfec;
+    margin: 2px;
+
+
+}
+
+.tera {
+    position: absolute;
+    width: auto;
+    height: 39%;
+    padding:  10px;
+    display:inline-block;
+    border-radius:40% 0% 40% 15%;
+    border: 3px solid #f7dfec;
+    margin: 2px;
+    bottom: 0px;
+
+
+}
+
+.terI {
+    position: absolute;
+    width: auto;
+    height: 39%;
+    padding:  10px;
+    display:inline-block;
+    border-radius:40% 15% 40% 0;
+    border: 3px solid #f7dfec;
+    margin: 2px;
+    right: 0px;
+
+
+}
+
+.teraII {
+    position: absolute;
+    width: auto;
+    height: 39%;
+    padding:  10px;
+    display:inline-block;
+    border-radius: 0 40% 15% 40%;
+    border: 3px solid #f7dfec;
+    margin: 2px;
+    bottom: 0px;
+    right: 0px;
+
+
+}
+
+
 .clear{
     clear: both;
 }
@@ -136,8 +236,9 @@ article p {
 #footer {
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
+    border-radius: 5px;
 
 }
 

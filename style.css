@@ -9,6 +9,7 @@
     padding: 0px 2px;
 
 }
+/*
 nav {
     position: sticky;
     top: 0.1px;
@@ -19,7 +20,7 @@ nav {
     z-index: 100;
 
 }
-
+*/
 
 /*
 nav img {
@@ -28,6 +29,7 @@ nav img {
     height: 100%;
 }
 */
+/*
 a.menu {
     display: inline-block;
     float: left;
@@ -37,6 +39,30 @@ a.menu {
     text-decoration: none;
     text-align: center;
     font-size: 15px;
+}
+*/
+
+nav {
+    overflow: hidden;
+    position: sticky;
+    top: 0.1px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav a{
+    display: block;
+    width: 20%;
+    float: left;
+    background-color:  rgba(0, 0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+    color: #ffffff;
+    height: 43px;
+    z-index: 100;
+    padding: 15px;
+
 }
 
 a.menu:hover {
@@ -77,10 +103,12 @@ article{
 }
 
 .therapy {
+
     border-radius: 25px;
     display: inline-block;
-    position: relative;
 }
+
+
 
 article h1 {
 
@@ -107,6 +135,8 @@ article h1 {
     border-radius: 20px;
     padding: 5px;
     margin-left: 5px;
+
+
 }
 .therapy h3 {
     display: inline-block;
@@ -150,18 +180,18 @@ article p {
 
 
 .ter {
-    position: absolute;
-    width: auto;
-    height: 39%;
+    width: 33%;
+    height: 100%;
     padding:  10px;
     display:inline-block;
-    border-radius:15% 40% 0 40%;
+    border-radius:15% 40% ;
     border: 3px solid #f7dfec;
-    margin: 2px;
+    margin-left: 10px;
+    margin-bottom: auto;
 
 
 }
-
+/*
 .tera {
     position: absolute;
     width: auto;
@@ -204,7 +234,7 @@ article p {
 
 
 }
-
+*/
 
 .clear{
     clear: both;

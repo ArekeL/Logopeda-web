@@ -247,11 +247,24 @@ img.ter {
     width: 100%;
     text-align: center;
 }
-.iconfb{
+
+//////
+.img fb{
+    display: inline-block;
     width: 30%;
     margin-right: 50px;
 }
-.iconinst {
+.iconfb {
+
+    width: 30%;
+    margin-right: 50px;
+}
+.img fb:hover {
+  color: aqua;
+}
+///////
+.img inst {
+    display: inline-block;
     width: 30%;
     margin-left: 50px;
 }

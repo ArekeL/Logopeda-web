@@ -182,7 +182,7 @@ article p {
 
 
 img.ter {
-    width: 30%;
+    width: 33%;
     height: 100%;
     padding:  10px;
     display:inline-block;
@@ -247,23 +247,13 @@ img.ter {
     width: 100%;
     text-align: center;
 }
-
-//////
-.img fb{
-    display: inline-block;
-    width: 30%;
-    margin-right: 50px;
-}
 .iconfb {
 
     width: 30%;
     margin-right: 50px;
 }
-.img fb:hover {
-  color: aqua;
-}
-///////
-.img inst {
+
+.iconinst {
     display: inline-block;
     width: 30%;
     margin-left: 50px;

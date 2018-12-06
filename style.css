@@ -128,15 +128,16 @@ article h1 {
     padding-bottom: 10px;
     margin: auto;
 
-
 }
 .boxter{
     display: inline-block;
-    width: 65%;
+    width: 33%;
+    height: 200px;
     border: 3px solid #f7dfec;
     border-radius: 20px;
     padding: 5px;
-    margin-left: 5px;
+    background-color: rgba(247, 223, 236, 0.33);
+    overflow: hidden;
 
 
 }
@@ -145,6 +146,7 @@ article h1 {
     float: left;
     font-size: 25px;
     padding-left: 10px;
+    width: 70%
 
 }
 
@@ -182,8 +184,8 @@ article p {
 
 
 img.ter {
-    width: 33%;
-    height: 100%;
+    width: 27%;
+    height: 27%;
     padding:  10px;
     display:inline-block;
     border-radius:15% 40% ;

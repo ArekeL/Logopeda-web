@@ -132,7 +132,7 @@ article h1 {
 .boxter{
     display: inline-block;
     width: 33%;
-    height: 200px;
+    height: 350px;
     border: 3px solid #f7dfec;
     border-radius: 20px;
     padding: 5px;
@@ -141,13 +141,13 @@ article h1 {
 
 
 }
+
 .therapy h3 {
     display: inline-block;
-    float: left;
-    font-size: 25px;
-    padding-left: 10px;
-    width: 70%
-
+    font-size: 27px;
+    text-align: center;
+    width: 70%;
+    padding: 15px;
 }
 
 .tex {
@@ -161,13 +161,12 @@ article h1 {
 
 img.face{
     width: 25%;
-    height: 25%;
     float: left;
     padding:  10px;
-    display: block;
+    display: inline-block;
     border-radius:40% 15%;
     border: 3px solid #f7dfec;
-    margin: 2px;
+    margin: 0 2px 0 2px;
 
 }
 
@@ -176,7 +175,7 @@ article p {
     float: left;
     width: 74%;
     padding:10px;
-    line-height: 25px;
+    line-height: 24px;
     font-size: 18px;
     border-top: 3px solid #f7dfec;
     border-bottom: 3px solid #f7dfec;
@@ -185,14 +184,20 @@ article p {
 
 img.ter {
     width: 27%;
-    height: 27%;
-    padding:  10px;
     display:inline-block;
     border-radius:15% 40% ;
     border: 3px solid #f7dfec;
     margin-left: 10px;
     margin-bottom: auto;
+    float: left;
 
+
+}
+
+.boxter:hover {
+    border-color:#facae4;
+    background-color: rgba(247, 223, 236, 0.5);
+    transition-duration: 0.4s;
 
 }
 /*

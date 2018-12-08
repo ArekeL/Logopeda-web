@@ -176,11 +176,54 @@ img.ter {
     width: 100%;
     text-align: center;
 }
-
+/*
 .iconfb {
 
     width: 30%;
     margin-right: 50px;
+}
+*/
+
+.iconfb {
+display: inline-block;
+width:300px;
+height:300px;
+border-radius: auto;
+margin-right: 50px;
+background:url('iconFB.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+.iconfb:hover{
+background:url('iconFBh.png');
+}
+
+.iconin {
+display: inline-block;
+width:300px;
+height:300px;
+border-radius: 50%;
+margin-right: 50px;
+background:url('iconINS.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+.iconin:hover{
+background:url('iconINSh.png');
+}
+
+.icontel {
+display: inline-block;
+width:300px;
+height:300px;
+border-radius: 50%;
+margin-right: 50px;
+background:url('iconFB.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+.icontel:hover{
+background:url('iconFBh.png');
 }
 
 .iconinst {
@@ -243,23 +286,8 @@ img.ter {
 
 
 /**/
+/**//* CSS for Cennik*/
 /**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/* CSS for Cennik*/
 
 
 li.name {

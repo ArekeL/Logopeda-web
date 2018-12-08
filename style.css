@@ -1,5 +1,5 @@
-*{
-     box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 #conteiner {
@@ -9,38 +9,6 @@
     padding: 0px 2px;
 
 }
-/*
-nav {
-    position: sticky;
-    top: 0.1px;
-    background-color: rgba(0, 0, 0, 0.70);
-    width: 100% ;
-    height: 43px;
-    border-radius: 5px;
-    z-index: 100;
-
-}
-*/
-
-/*
-nav img {
-    display:block;
-    width: 240px;
-    height: 100%;
-}
-*/
-/*
-a.menu {
-    display: inline-block;
-    float: left;
-    width: 20%;
-    padding: 10px 5px 10px 5px;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-}
-*/
 
 nav {
     overflow: hidden;
@@ -50,11 +18,11 @@ nav {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-nav a{
+nav a {
     display: block;
     width: 20%;
     float: left;
-    background-color:  rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     text-align: center;
     text-decoration: none;
     text-decoration: none;
@@ -73,10 +41,6 @@ a.menu:hover {
     border: solid 2px #f7dfec;
     border-radius: 5px;
     margin-top: 0.5px;
-
-
-
-
 }
 
 .menu.active {
@@ -89,19 +53,33 @@ a.menu:hover {
     transition-duration: 0.4s;
 }
 
-
-header img {
+header {
+    background-image: url(logopedalong.jpg);
+    background-repeat: no-repeat;
+    background-position: center 43px;
+    background-size: 100%;
     width: 100%;
     display: block;
-    height: 380px;
+    height: 350px;
+    background-attachment: fixed;
 }
 
-article{
+header img {
+    background-image: url(logopedalong.jpg);
+    background-repeat: no-repeat;
+    background-position: center 43px;
+    background-size: 100%;
+    width: 100%;
+    display: block;
+    height: 350px;
+    background-attachment: fixed;
+}
+
+article {
     max-width: 1240px;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-bottom: 30px;
     padding: 5px;
-
 }
 
 .therapy {
@@ -110,26 +88,24 @@ article{
     display: inline-block;
 }
 
-
-
 article h1 {
 
     text-align: center;
     font-size: 35px;
     margin: 0 20% 5px 40%;
     padding-bottom: 10px;
-
 }
-.therapy h1{
+
+.therapy h1 {
     display: block;
     text-align: center;
     font-size: 35px;
     padding-top: 50px;
     padding-bottom: 10px;
     margin: auto;
-
 }
-.boxter{
+
+.boxter {
     display: inline-block;
     width: 33%;
     height: 350px;
@@ -138,8 +114,6 @@ article h1 {
     padding: 5px;
     background-color: rgba(247, 223, 236, 0.33);
     overflow: hidden;
-
-
 }
 
 .therapy h3 {
@@ -156,96 +130,44 @@ article h1 {
     width: 100%;
 }
 
-
-
-
-img.face{
+img.face {
     width: 25%;
     float: left;
-    padding:  10px;
+    padding: 10px;
     display: inline-block;
-    border-radius:40% 15%;
+    border-radius: 40% 15%;
     border: 3px solid #f7dfec;
     margin: 0 2px 0 2px;
-
 }
 
 article p {
     text-align: justify;
     float: left;
     width: 74%;
-    padding:10px;
+    padding: 10px;
     line-height: 24px;
     font-size: 18px;
     border-top: 3px solid #f7dfec;
     border-bottom: 3px solid #f7dfec;
 }
 
-
 img.ter {
     width: 27%;
-    display:inline-block;
-    border-radius:15% 40% ;
+    display: inline-block;
+    border-radius: 15% 40%;
     border: 3px solid #f7dfec;
     margin-left: 10px;
     margin-bottom: auto;
     float: left;
-
-
 }
 
 .boxter:hover {
-    border-color:#facae4;
+    border-color: #facae4;
     background-color: rgba(247, 223, 236, 0.5);
     transition-duration: 0.4s;
-
-}
-/*
-.tera {
-    position: absolute;
-    width: auto;
-    height: 39%;
-    padding:  10px;
-    display:inline-block;
-    border-radius:40% 0% 40% 15%;
-    border: 3px solid #f7dfec;
-    margin: 2px;
-    bottom: 0px;
-
-
 }
 
-.terI {
-    position: absolute;
-    width: auto;
-    height: 39%;
-    padding:  10px;
-    display:inline-block;
-    border-radius:40% 15% 40% 0;
-    border: 3px solid #f7dfec;
-    margin: 2px;
-    right: 0px;
-
-
-}
-
-.teraII {
-    position: absolute;
-    width: auto;
-    height: 39%;
-    padding:  10px;
-    display:inline-block;
-    border-radius: 0 40% 15% 40%;
-    border: 3px solid #f7dfec;
-    margin: 2px;
-    bottom: 0px;
-    right: 0px;
-
-
-}
-*/
-
-.clear{
+.clear {
     clear: both;
 }
 
@@ -254,6 +176,7 @@ img.ter {
     width: 100%;
     text-align: center;
 }
+
 .iconfb {
 
     width: 30%;
@@ -270,6 +193,7 @@ img.ter {
     width: 50%;
 
 }
+
 .iconm {
     width: 50%;
 }
@@ -300,8 +224,6 @@ img.ter {
     img.face {
         width: 100%;
         height: 100%
-
-
     }
 
     article p {
@@ -320,11 +242,27 @@ img.ter {
 }
 
 
-/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
 /* CSS for Cennik*/
 
 
-li.name{
+li.name {
     float: left;
     border: 3px solid #f7dfec;
     margin: 0 3px 3px 5px;
@@ -347,12 +285,8 @@ li.price {
     width: 20%;
     border-radius: 5px;
 }
+
 ul {
     padding: 0 10% 0 30%;
     display: inline-block;
 }
-
-
-
-
-

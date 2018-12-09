@@ -59,8 +59,9 @@ header {
     background-position: center 43px;
     background-size: 100%;
     width: 100%;
+    height: 25vw;
     display: block;
-    height: 350px;
+
     background-attachment: fixed;
 }
 

@@ -322,6 +322,40 @@ ul {
 /**/
 
 
-.box kontakt a {
-    display: block;
+.boxkontakt a{
+    clear: both;
+    display: inline-block;
+
+}
+
+.boxkontakt .boxter {
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+/**/
+/**//* CSS for Terapia*/
+/**/
+
+.therapyt img{
+    display: inline-block;
+    width: 30%;
+}
+
+.therapyt .boxter{
+    display: inline-block;
+    width: 60%;
+    height: 400px;
+
+}
+
+.therapyt h3 {
+
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
 }

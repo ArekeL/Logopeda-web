@@ -351,12 +351,11 @@ ul {
 }
 
 .therapyt .boxter{
-    position: static;
     display: inline-block;
     width: 60%;
     height: 369px;
     margin-left: 5%;
-
+    z-index: -1;
 }
 .therapyt h1 {
 
